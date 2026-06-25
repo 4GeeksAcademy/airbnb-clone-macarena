@@ -12,7 +12,8 @@ const rooms: Room[] = [
     location: "Cancún, México",
     price: 120,
     rating: 4.8,
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1200&auto=format&fit=crop",
     host: "María",
     guests: 4,
   },
@@ -22,7 +23,8 @@ const rooms: Room[] = [
     location: "Bariloche, Argentina",
     price: 95,
     rating: 4.9,
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?q=80&w=1200&auto=format&fit=crop",
     host: "Juan",
     guests: 2,
   },
@@ -32,7 +34,8 @@ const rooms: Room[] = [
     location: "Punta del Este, Uruguay",
     price: 180,
     rating: 4.7,
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1200&auto=format&fit=crop",
     host: "Ana",
     guests: 6,
   },
@@ -76,7 +79,7 @@ export default function CatalogPage() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
+          <div className="sticky top-28 hidden h-[calc(100vh-8rem)] items-center justify-center rounded-3xl bg-gray-200 text-lg font-semibold text-gray-600 md:flex">
             Mapa
           </div>
         </div>
